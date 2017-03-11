@@ -16,6 +16,10 @@ body {
     padding: 2em 2em 4em;
 }
 
+p {
+    text-align: justify;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: #EEE;
     font-weight: 600;
@@ -81,6 +85,7 @@ img {
     color: #DDDDDD;
     display: block;
     transition: 0.3;
+    white-space: nowrap;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -94,6 +99,10 @@ img {
     top: 50%;
     right: 20px;
     font-size: 36px;
+}
+
+.starthidden {
+    display: none;
 }
 
 @keyframes rotation {
