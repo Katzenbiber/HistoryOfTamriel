@@ -1,50 +1,4 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>The History of Tamriel</title>
-        <meta name="description" content="The History of Tamriel">
-        <link href="https://fonts.googleapis.com/css?family=Fondamento" rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <link rel="stylesheet" href="main.css">
-        <script type=text/javascript src="animation.js"></script>
-    </head>
-    
-    <div id="Header" class="Header">
-        <li><a href="/index.html" class="logo">The History of Tamriel</a></li>
-        <li><a href="#" class="TopNavBarButton">Map</a></li>
-        <li><a href="about.html" class="TopNavBarButton">About</a></li>
-    </div>
-    
-    <div id="mySidenav" class="sidenav">
-        <div id="SidebarLinks" class="starthidden">
-            <a style="background-image: linear-gradient(90deg, rgb(50, 30, 0) 0%, rgb(60, 60, 60) 100%);" href="Provinces/BlackMarsh.html">Black Marsh</a>
-            <a style="background-image: linear-gradient(90deg, rgb(60, 20, 0) 0%, rgb(60, 60, 60) 100%);" href="Provinces/HighRock.html">High Rock</a>
-            <a style="background-image: linear-gradient(90deg, rgb(80, 20, 0) 0%, rgb(60, 60, 60) 100%);" href="Provinces/Hammerfell.html">Hammerfell</a>
-            <a style="background-image: linear-gradient(90deg, rgb(60, 40, 0) 0%, rgb(60, 60, 60) 100%);" href="Provinces/Valenwood.html">Valenwood</a>
-            <a style="background-image: linear-gradient(90deg, rgb(60, 70, 0) 0%, rgb(60, 60, 60) 100%);" href="Provinces/Elsweyr.html">Elsweyr</a>
-            <a style="background-image: linear-gradient(90deg, rgb(90, 90, 0) 0%, rgb(60, 60, 60) 100%);" href="Provinces/Cyrodiil.html">Cyrodiil</a>
-            <a style="background-image: linear-gradient(90deg, rgb(40, 90, 100) 0%, rgb(60, 60, 60) 100%);" href="Provinces/SummersetIsles.html">Summerset Isles</a>
-            <a style="background-image: linear-gradient(90deg, rgb(0, 40, 80) 0%, rgb(60, 60, 60) 100%);" href="Provinces/Skyrim.html">Skyrim</a>
-            <a style="background-image: linear-gradient(90deg, rgb(70, 20, 70) 0%, rgb(60, 60, 60) 100%);" href="Provinces/Morrowind.html">Morrowind</a>
-        </div>
-        <a href="javascript:void(0)" id="myclosebtn" class="closebtn noselect" onclick="openNav()">&#9776;</a>
-    </div>
-
-<div id="main">
-<body>
-    <p style="text-align:left; color: #EEE;
-        font-weight: 600;
-        line-height: 1.3;
-        font-family: 'Fondamento', cursive;
-        font-size: 32px">
-            The History of all of Tamriel:
-            <span style="float:right;"><a href="http://elderscrolls.wikia.com/wiki/Timeline" class="button">Read on wiki</a></span>
-
-        <ul class="timeline">
-        <li><div class="tldate">Dawn Era</div></li>
+<li><div class="tldate">Dawn Era</div></li>
 
 <li>
 	<div class="timeline-panel noarrow">
@@ -196,7 +150,7 @@
 			<h4></h4>
 		</div><div class="tl-body">
 			<p>
-				Auri-El sought out Lorkhan in battle and warred with him. Lorkhan's followers included the ancestors of Manâ€”the Wandering Ehlnofey and whose heroes included <a href="http://elderscrolls.wikia.com/wiki/Kyne" title="Kyne">Kyne</a>, <a href="http://elderscrolls.wikia.com/wiki/Tsun" title="Tsun">Tsun</a>, <a href="http://elderscrolls.wikia.com/wiki/Stuhn" title="Stuhn">Stuhn</a>, <a href="http://elderscrolls.wikia.com/wiki/Jhunal" title="Jhunal">Jhunal</a>.
+				Auri-El sought out Lorkhan in battle and warred with him. Lorkhan's followers included the ancestors of Man—the Wandering Ehlnofey and whose heroes included <a href="http://elderscrolls.wikia.com/wiki/Kyne" title="Kyne">Kyne</a>, <a href="http://elderscrolls.wikia.com/wiki/Tsun" title="Tsun">Tsun</a>, <a href="http://elderscrolls.wikia.com/wiki/Stuhn" title="Stuhn">Stuhn</a>, <a href="http://elderscrolls.wikia.com/wiki/Jhunal" title="Jhunal">Jhunal</a>.
 			</p>
 		</div>
 	</div>
@@ -2504,7 +2458,7 @@
 			<h4>1E 2804</h4>
 		</div><div class="tl-body">
 			<p>
-				The <a href="http://elderscrolls.wikia.com/wiki/Winterhold_Rebellion" title="Winterhold Rebellion">Winterhold Rebellion</a> breaks out in the <a href="http://elderscrolls.wikia.com/wiki/Reman_Empire" title="Reman Empire">Reman Empire</a> due to the implementation of extremely high taxes by Emperor <a href="http://elderscrolls.wikia.com/wiki/Kastav" title="Kastav">Kastav</a>, and harsh policies to ensure that said taxes were paid. The Dragonguard take no action,â€”because doing so would violate their Oath of Allegianceâ€”so supplies to them are cut.
+				The <a href="http://elderscrolls.wikia.com/wiki/Winterhold_Rebellion" title="Winterhold Rebellion">Winterhold Rebellion</a> breaks out in the <a href="http://elderscrolls.wikia.com/wiki/Reman_Empire" title="Reman Empire">Reman Empire</a> due to the implementation of extremely high taxes by Emperor <a href="http://elderscrolls.wikia.com/wiki/Kastav" title="Kastav">Kastav</a>, and harsh policies to ensure that said taxes were paid. The Dragonguard take no action,—because doing so would violate their Oath of Allegiance—so supplies to them are cut.
 			</p>
 		</div>
 	</div>
@@ -5305,7 +5259,7 @@
 			<h4>3E 127</h4>
 		</div><div class="tl-body">
 			<p>
-				The <a href="http://elderscrolls.wikia.com/wiki/Battle_of_Ichidag" title="Battle of Ichidag">Battle of Ichidag</a> takes place â€“ <a href="http://elderscrolls.wikia.com/wiki/Uriel_Septim_III" title="Uriel Septim III">Uriel Septim III</a> and his forces fight against <a href="http://elderscrolls.wikia.com/wiki/Cephorus_Septim" title="Cephorus Septim">Cephorus Septim</a> in <a href="http://elderscrolls.wikia.com/wiki/Hammerfell" title="Hammerfell">Hammerfell</a>.
+				The <a href="http://elderscrolls.wikia.com/wiki/Battle_of_Ichidag" title="Battle of Ichidag">Battle of Ichidag</a> takes place – <a href="http://elderscrolls.wikia.com/wiki/Uriel_Septim_III" title="Uriel Septim III">Uriel Septim III</a> and his forces fight against <a href="http://elderscrolls.wikia.com/wiki/Cephorus_Septim" title="Cephorus Septim">Cephorus Septim</a> in <a href="http://elderscrolls.wikia.com/wiki/Hammerfell" title="Hammerfell">Hammerfell</a>.
 			</p>
 		</div>
 	</div>
@@ -5331,7 +5285,7 @@
 			<h4></h4>
 		</div><div class="tl-body">
 			<p>
-				<a href="http://elderscrolls.wikia.com/wiki/Battle_of_Falconstar" title="Battle of Falconstar">Battle of Falconstar</a> â€“ <a href="http://elderscrolls.wikia.com/wiki/Potema_Septim" title="Potema Septim">Queen Potema</a> fights against <a href="http://elderscrolls.wikia.com/wiki/Magnus_Septim" title="Magnus Septim">Magnus Septim</a>.
+				<a href="http://elderscrolls.wikia.com/wiki/Battle_of_Falconstar" title="Battle of Falconstar">Battle of Falconstar</a> – <a href="http://elderscrolls.wikia.com/wiki/Potema_Septim" title="Potema Septim">Queen Potema</a> fights against <a href="http://elderscrolls.wikia.com/wiki/Magnus_Septim" title="Magnus Septim">Magnus Septim</a>.
 			</p>
 		</div>
 	</div>
@@ -8628,7 +8582,4 @@
 		</div>
 	</div>
 </li>
-    </ul>
-    </body>
-    </div>
-</html>
+
