@@ -1,12 +1,13 @@
 /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
 var isOpen = false;
+var isOpenProvinces = false;
 
 function openNav() {
     document.getElementById("mySidenav").style.width = "350px";
     document.getElementById("Header").style.left = "350px";
     document.getElementById("myclosebtn").style.animation = "rotation 0.5s cubic-bezier(.45, 0, .55, 1) 1";
     document.getElementById("myclosebtn").style.transform = "rotate(90deg) translate(-12px, -12px)";
-    $( "div:hidden" ).show();
+    $( "#SidebarLinks" ).show();
     if (isOpen === true) {
         closeNav();
         return;
@@ -22,4 +23,18 @@ function closeNav() {
     document.getElementById("myclosebtn").style.transform = "rotate(0deg) translate(0px, 0px)";
     $("#SidebarLinks").hide("fast");
     isOpen = false;
+}
+
+function openProvinces() {
+    $( "#SidebarLinks2" ).show("fast");
+    if (isOpenProvinces === true) {
+        closeProvinces();
+        return;
+    }
+    isOpenProvinces = true;
+}
+
+function closeProvinces() {
+    $("#SidebarLinks2").hide("fast");
+    isOpenProvinces = false;
 }
