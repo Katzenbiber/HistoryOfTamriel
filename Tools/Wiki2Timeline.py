@@ -1,6 +1,10 @@
 import re
+import sys
 inputpath = "input.txt"
 outputpath = "output.txt"
+if len(sys.argv)==3:
+	inputpath=sys.argv[1]
+	outputpath=sys.argv[2]
 links = True
 file = open(inputpath,"r")
 string = file.read()
